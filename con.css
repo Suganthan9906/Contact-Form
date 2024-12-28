@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 100px;
+    line-height: 30px;
+}
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+    
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="text"],
+#contact input[type="tel"] {
+    font: 400 12px/16px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contact {
+    box-shadow: 50px 0 50px 0 rgba(221, 69, 34, 0.2), 0 5px 5px 0 rgba(54, 239, 16, 0.603);
+    margin: 150px 0;
+    padding: 25px;
+    background-color: rgb(111, 83, 156);
+}
+#contact h3{
+    font-size: 30px;
+    font-weight: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+#contact h4{
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+fieldset{
+    border: medium none !important;
+    margin: 0 0 10px 0;
+    padding: 0%;
+    min-width: 100%;
+    width: 100%;
+
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="text"],
+#contact input[type="tel"]{
+    border: 1px solid blue;
+    padding: 10px;
+    width: 100%;
+    margin: 0 0 5px;
+    background: bisque;
+}
+#contact button[type="submit"]{
+    width: 100%;
+    background: rgb(205, 47, 179);
+    color: rgb(255, 255, 255);
+    font-weight: 400px;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#contact button[type="submit"]:hover{
+    background-color: lightcoral;
+    color:  black;
+    font-weight: 900;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="tel"]:hover{
+    transition: border-color 0.3s ease-in-out;
+    border: 5px solid violet;
+}
+
+.copyright {
+    text-align: center;
+  }
+
+#contact input:focus{
+    outline: 0; 
+    border: 3px solid yellowgreen;
+}
